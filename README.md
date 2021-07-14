@@ -46,3 +46,19 @@ Mỗi thay đổi vào mã nguồn trên local sẽ có thể ủy thác (**comm
   
   Một commit đại diện cho một thời điểm cụ thể trong lịch sử dự án của bạn. 
   Sử dụng lệnh commit kết hợp với lệnh **git add** để cho git biết những thay đổi bạn muốn lưu vào local repository.
+  
+  Khi thực hiện commit, trong repository sẽ ghi lại sự khác biệt từ lần commit trước với trạng thái hiện tại. 
+  Các commit ghi nối tiếp với nhau theo thứ tự thời gian do đó chỉ cần theo vết các commit thì có thể biết được lịch sử thay đổi trong quá khứ.
+  
+  ## 4. Clone
+  
+  Nếu bạn muốn có một bản sao của một kho chứa Git có sẵn, có thể là một dự án mà bạn tham gia- thì hãy thực hiện clone. 
+  **Clone** sẽ tạo ra một bản sao của gần như tất cả những gì mà máy chủ đang lưu trữ. 
+  Bạn sẽ có được tát cả lịch sử đã xảy ra trên repository và hoàn toàn có thể quay lại, undo lại từ bất kỳ thời điểm commit nào. 
+  Và một điểm nữa là nếu ổ cứng máy bị hư, bạn có thể sử dụng bất kỳ bản sao trên bất kỳ máy khách nào để khôi phục lại máy chủ.
+
+Bạn có thể **clone** từ bất kỳ kho chứa nào, nó sẽ sao chéo luôn các thiết lập về repository và sẽ tự động taoj một master branch trên máy tính của bạn.
+
+Trên Github, có một cách khác để sao chép kho từ người khác là thực hiện **_fork_** trên repository bạn cần. 
+Điểm khác của fork là bạn có thể đóng góp thêm vào repository gốc bằng cách thực hiện pull request. 
+Khi máy chủ của repository nơi bạn fork nhận được yêu cầu sẽ xem xét chỉnh sửa của bạn, nếu thấy hay sẽ tiến hành merge nội dung chỉnh sửa của bạn vào source gốc.
