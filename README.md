@@ -107,3 +107,8 @@ Thông thường dùng để đánh dấu commit để release và cũng có th�
 Mặt khác **lightweight tag** thì chủ yếu được dùng trên không gian local làm việc tạm thời.
 ## 11. Upstream
 Upstream đề cập đến nơi bạn push các thay đổi của mình, thường là nhánh chính (master branch).
+*******************
+Nguồn tham khảo:
+1. Viblo.asia (viblo.asia/p/nhung-lenh-git-co-ban-can-nho-V3m5W1OyZO7)
+2. (https://csc.edu.vn/lap-trinh-va-csdl/tin-tuc/kien-thuc-lap-trinh/Git-la-gi--Nhung-khai-niem-co-ban-khi-lam-viec-tren-Git-4133)
+3. (https://backlog.com/git-tutorial/vn/intro/intro1_2.html)
